@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio by Dormoks</title>
+<body>
+    <div id="modal">
+        <div class="modal-content">
+            <div class="social-link">
+                <a href="https://t.me/Dormoks_podval_s" target="_blank">
+                    <img src="https://bnkirov.ru/upload/iblock/fa4/igyqcwipcrhrfm1axpkqlnaoww1o0hvi.PNG" alt="Telegram">
+                    <span>тгк</span>
+                </a>
+            </div>
+            <div class="social-link">
+                <a href="https://discord.com/invite/XmxHXkFm" target="_blank">
+                    <img src="https://w7.pngwing.com/pngs/580/137/png-transparent-discord-logo-thumbnail.png" alt="Telegram">
+                    <span>Дск</span>
+                </a>
+            </div>
+            <div class="social-link">
+                <a href="#" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL1IT8SJrhaGrWAN7pCG-z8eb3I0PadxO9PA&s" alt="Discord">
+                    <span>Ют dormoks_ </span>
+                </a>
+            </div>
+            <div class="social-link">
+                <a href="#" target="_blank">
+                    <img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1720224000&semt=ais_user" alt="Instagram">
+                    <span>Инста @dormoks_</span>
+                </a>
+            </div>
+            <div class="social-link">
+                <a href="https://steamcommunity.com/profiles/76561199513480642/" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4vtphMtxRWfK6nO2CIbGfSETyEs79Dr6oPw&s" alt="Steam">
+                    <span>mspozitiv0@gmail.com</span>
+                </a>
+            </div>
+            </a>
+            </div>
+    </div>
+    <div class="footer-text">By Dormoks</div>
+
+    <script>
+        // Для автоматического открытия модального окна при загрузке страницы
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("modal").style.display = "block";
+        });
+    </script>
+    <a href="https://img.freepik.com/premium-photo/blue-feathers-wallpapers-for-iphone-and-android_889227-12063.jpg" class="background-link">
+        <div class="background"></div>
+    </a>
+</body>
+<style> 
+  body {
+            font-family: 'Cooper Hewitt', sans-serif; /* Использую шрифт Cooper Hewitt */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1a1a1a; /* темный фон страницы */
+        }
+
+        #modal {
+            display: block;
+            background-color: #222; /* темно-серый фон модального окна */
+            padding: 20px;
+            border-radius: 8px;
+            position: relative;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* светящаяся тень */
+        }
+
+        #modal::before {
+            content: '';
+            position: absolute;
+            top: -5px; left: -5px; right: -5px; bottom: -5px;
+            border-radius: 10px;
+            background: linear-gradient(45deg, #6aff00, #009602, #00ff95, #48ff00, #00ffd5, #00ff4c, #0dff00, #089e00, #4a9f50);
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(10px);
+            animation: borderAnimation 10s linear infinite;
+        }
+
+        @keyframes borderAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .modal-content {
+            text-align: center;
+        }
+
+        .social-link {
+            margin-bottom: 10px;
+        }
+
+        .social-link a {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold; /* жирный текст */
+            padding: 10px 20px;
+            background: linear-gradient(45deg, #6ab987e8, #387020);
+            border-radius: 30px;
+            transition: background 0.5s, transform 0.3s;
+            box-shadow: 0 0 10px rgba(4, 191, 60, 0.5), 0 0 20px rgba(9, 255, 0, 0.5); /* неоновая тень */
+        }
+
+        .social-link a:hover {
+            background: linear-gradient(45deg, #80ff00, #00ff55);
+            transform: scale(1.1); /* увеличение размера при наведении */
+        }
+
+        .social-link a img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .social-link a span {
+            vertical-align: middle;
+        }
+
+        .footer-text {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            color: #888;
+            font-size: 14px;
+        }
+
+    </style>
+
+</body>
+</html>
+
+</body>
+</html>
